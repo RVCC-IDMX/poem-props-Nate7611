@@ -2,12 +2,21 @@
 .poem {
     width: fit-content;
     margin-inline: auto;
-    border: var(--border-size-4) solid var(--blue-8);
+    border: var(--border-size-4) solid var(--gray-9);
     border-radius: var(--radius-3);;
     padding: var(--size-3);
     max-width: 85vw;
+    font-weight: var(--font-weight-6);
+    box-shadow: var(--shadow-5);
+
 
     &__stanza-1 {
         margin-block-end: var(--size-5);
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    .poem {
+        border: var(--border-size-4) solid var(--blue-11);
     }
 }

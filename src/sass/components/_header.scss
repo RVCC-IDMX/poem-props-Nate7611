@@ -6,6 +6,10 @@
     margin-block-end: var(--size-6);
     max-width: 85vw;
 
+    &__author,
+    &__title {
+        color: var(--gray-9);
+    }
 
     &__author {
         margin-block-end: var(--size-6);
@@ -13,7 +17,19 @@
     }
 
     &__image {
-        border: var(--border-size-4) solid var(--blue-8);
+        border: var(--border-size-4) solid var(--gray-9);
         border-radius: var(--radius-3);;
+        box-shadow: var(--shadow-5);
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    .header__image {
+        border: var(--border-size-4) solid var(--blue-11);
+    }
+    
+    .header__author,
+    .header__title {
+        color: var(--gray-2);
     }
 }
