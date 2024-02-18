@@ -4,6 +4,8 @@
     width: fit-content;
     text-align: center;
     margin-block-end: var(--size-6);
+    margin-block-start: var(--size-4);
+    max-width: 85vw;
 
 
     &__author {
@@ -12,7 +14,7 @@
     }
 
     &__image {
-        border: var(--border-size-4) solid var(--blue-12);
+        border: var(--border-size-4) solid var(--blue-8);
         border-radius: var(--radius-3);;
     }
 }
