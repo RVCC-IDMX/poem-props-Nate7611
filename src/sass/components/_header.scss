@@ -1,1 +1,17 @@
 /* header */
+.header {
+    margin-inline: auto;
+    width: fit-content;
+    text-align: center;
+    margin-block-end: var(--size-8);
+
+    &__author {
+        margin-block-end: var(--size-6);
+        margin-inline: auto;
+    }
+
+    &__image {
+        border: var(--border-size-4) solid var(--indigo-12);
+        border-radius: var(--radius-3);;
+    }
+}
