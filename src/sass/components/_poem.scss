@@ -1,0 +1,12 @@
+/* poem */
+.poem {
+    width: fit-content;
+    margin-inline: auto;
+    border: var(--border-size-4) solid var(--blue-12);
+    border-radius: var(--radius-3);;
+    padding: var(--size-3);
+
+    &__stanza-1 {
+        margin-block-end: var(--size-5);
+    }
+}
